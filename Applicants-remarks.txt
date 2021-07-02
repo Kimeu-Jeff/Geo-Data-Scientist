@@ -1,5 +1,5 @@
-# This file is intended for remarks of the applicant:
-# Name of applicant: Japheth Kimeu
+# Remarks
+
 
 Upon loading and viewing the given data, I noted the coordinates were in decimal degrees(WGS84). Coordinates columns in point data are labelled wrongly and were changed to long,lat. I also noted some measurements were outside the polygon area. I conducted data cleaning to change the CRS to projected utm(wgs84) that enables  interpolation. I also removed(subsetting) the points lying outside the polygon area.
 
